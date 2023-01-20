@@ -3,12 +3,23 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-19T17:55:50.261163-06:00"
+    created: "2023-01-19T19:11:52.044793-06:00"
     description: A Helm chart for Kubernetes
-    digest: b90436e61383bb0adae2db34739e1e1d4b998c50254c7b9ace7e8a3461397136
+    digest: 97bc5524ee950ac804ba6747152a2f986dcafac97413043873402cdc99aa9b64
     name: helm-chart-test
     type: application
     urls:
-    - https://anupash147.github.io/helm-chart/helm-chart-test-0.1.0.tgz
+    - https://mattiaperi.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-19T17:55:50.2602-06:00"
+  ingress-headless-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-01-19T19:11:52.045166-06:00"
+    description: Headless Service needed for OIDC
+    digest: 6a4361597792a628539ead3640c69ef6d40db9e63dae39106716d8c1b272f61a
+    name: ingress-headless-service
+    type: application
+    urls:
+    - https://mattiaperi.github.io/helm-chart/ingress-headless-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-01-19T19:11:52.043577-06:00"
