@@ -9,7 +9,7 @@ entries:
     name: helm-chart-test
     type: application
     urls:
-    - https://mattiaperi.github.io/helm-chart/helm-chart-test-0.1.0.tgz
+    - https://anupash147.github.io/helm-charts/helm-chart-test-0.1.0.tgz
     version: 0.1.0
   ingress-headless-service:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: ingress-headless-service
     type: application
     urls:
-    - https://mattiaperi.github.io/helm-chart/ingress-headless-service-0.1.0.tgz
+    - hhttps://anupash147.github.io/helm-charts/ingress-headless-service-0.1.0.tgz
     version: 0.1.0
 generated: "2023-01-19T19:11:52.043577-06:00"
