@@ -1,25 +1,25 @@
 apiVersion: v1
 entries:
-  helm-chart-test:
+  aws-container-insight-fluent-bit:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-01-19T20:38:58.576082-06:00"
+    appVersion: 1.0.0
+    created: "2023-01-30T15:34:05.398608-06:00"
     description: A Helm chart for Kubernetes
-    digest: 3ae7748f0f76f556183a2d01d55e6f6cab629c32191ec6858f82368c7ea8215d
-    name: helm-chart-test
+    digest: de3273cfd4e087684f60220aa09397980dadb4d54f8ca4d1a0a7917a1fc7a36a
+    name: aws-container-insight-fluent-bit
     type: application
     urls:
-    - https://anupash147.github.io/helm-charts/helm-chart-test-0.1.0.tgz
+    - https://anupash147.github.io/helm-charts/aws-container-insight-fluent-bit-0.1.0.tgz
     version: 0.1.0
   ingress-headless-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-19T20:38:58.576758-06:00"
+    created: "2023-01-30T15:34:05.399339-06:00"
     description: Headless Service needed for OIDC
-    digest: 9473102257ba9a882199f8497b0f8dd24d63e3523358ab8eb5158ac44dfb3102
+    digest: f320b5ee6e9077c57f900bc09837603c0a95eb2cdaa4cebffa676f7c94fe47a2
     name: ingress-headless-service
     type: application
     urls:
     - https://anupash147.github.io/helm-charts/ingress-headless-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-19T20:38:58.574909-06:00"
+generated: "2023-01-30T15:34:05.393243-06:00"
