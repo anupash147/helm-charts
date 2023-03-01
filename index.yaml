@@ -3,10 +3,10 @@ entries:
   aws-container-insight-fluent-bit:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-01T11:21:38.986559-06:00"
+    created: "2023-03-01T12:46:42.143782-06:00"
     description: This chart will add fluent-bit scrapped logs to cloudwatch from EKS
       cluster
-    digest: 9ced57dcc7d927a891d81244e18a55e85266b052d442386f1215267bf3c61962
+    digest: 72196db05c6bc067b8c52b3848f221b8cba0232f5cc5b0f781a90e2daad42c8a
     name: aws-container-insight-fluent-bit
     type: application
     urls:
@@ -15,9 +15,9 @@ entries:
   ingress-headless-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-03-01T11:21:38.986958-06:00"
+    created: "2023-03-01T12:46:42.147512-06:00"
     description: Headless Service needed for OIDC
-    digest: 40534e5f38c6eabd7b443cb1262956e8c540610b19523d74a944bf1eaf19f578
+    digest: ef79e0ecd6e7e33951a76218aed20ea6e7c8f2bda9cc6554552ff20d1100f691
     name: ingress-headless-service
     type: application
     urls:
@@ -25,10 +25,10 @@ entries:
     version: 0.1.0
   secrets-store-csi-driver-provider-aws:
   - apiVersion: v2
-    created: "2023-03-01T11:21:38.98748-06:00"
+    created: "2023-03-01T12:46:42.148123-06:00"
     description: A Helm chart for the AWS Secrets Manager and Config Provider for
       Secret Store CSI Driver
-    digest: ec5e2f9a0e89bda8fede403917a1f23f6b8077d4428896c749d1eac9f9ffe952
+    digest: e3236bca111370d54911da72c5919ea3e4d602669cb27e302ab1dd2f145da824
     home: https://github.com/aws/secrets-store-csi-driver-provider-aws
     icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
     keywords:
@@ -45,4 +45,4 @@ entries:
     urls:
     - https://anupash147.github.io/helm-charts/secrets-store-csi-driver-provider-aws-0.2.0.tgz
     version: 0.2.0
-generated: "2023-03-01T11:21:38.983314-06:00"
+generated: "2023-03-01T12:46:42.142798-06:00"
