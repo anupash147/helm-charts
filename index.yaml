@@ -3,9 +3,10 @@ entries:
   aws-container-insight-fluent-bit:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-30T15:38:55.398926-06:00"
-    description: A fluent-bit based log scrapper for eks to cloudwatch
-    digest: de3273cfd4e087684f60220aa09397980dadb4d54f8ca4d1a0a7917a1fc7a36a
+    created: "2023-03-01T11:21:38.986559-06:00"
+    description: This chart will add fluent-bit scrapped logs to cloudwatch from EKS
+      cluster
+    digest: 9ced57dcc7d927a891d81244e18a55e85266b052d442386f1215267bf3c61962
     name: aws-container-insight-fluent-bit
     type: application
     urls:
@@ -14,12 +15,34 @@ entries:
   ingress-headless-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-01-30T15:38:55.399323-06:00"
+    created: "2023-03-01T11:21:38.986958-06:00"
     description: Headless Service needed for OIDC
-    digest: f320b5ee6e9077c57f900bc09837603c0a95eb2cdaa4cebffa676f7c94fe47a2
+    digest: 40534e5f38c6eabd7b443cb1262956e8c540610b19523d74a944bf1eaf19f578
     name: ingress-headless-service
     type: application
     urls:
     - https://anupash147.github.io/helm-charts/ingress-headless-service-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-30T15:38:55.395845-06:00"
+  secrets-store-csi-driver-provider-aws:
+  - apiVersion: v2
+    created: "2023-03-01T11:21:38.98748-06:00"
+    description: A Helm chart for the AWS Secrets Manager and Config Provider for
+      Secret Store CSI Driver
+    digest: ec5e2f9a0e89bda8fede403917a1f23f6b8077d4428896c749d1eac9f9ffe952
+    home: https://github.com/aws/secrets-store-csi-driver-provider-aws
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - secrets-store-csi-driver
+    - csi
+    - aws
+    - secrets manager
+    kubeVersion: '>=1.17.0-0'
+    name: secrets-store-csi-driver-provider-aws
+    sources:
+    - https://github.com/aws/secrets-store-csi-driver-provider-aws
+    type: application
+    urls:
+    - https://anupash147.github.io/helm-charts/secrets-store-csi-driver-provider-aws-0.2.0.tgz
+    version: 0.2.0
+generated: "2023-03-01T11:21:38.983314-06:00"
